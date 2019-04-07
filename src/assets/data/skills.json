@@ -1,0 +1,14 @@
+[
+    {
+        "Web (Client Side)": "React, Vue.js, TypeScript",
+        "Web (Server Side)": "PHP, Go",
+        "DB": "MySQL, MongoDB",
+        "Infrastructure": "Docker, Kubernetes, AWS, GCP",
+        "Version": "Git, GitHub",
+        "CI": "Jenkins",
+        "Machine Learning": "TensorFlow, Keras",
+        "Data Science": "Jupyter Notebook",
+        "Game": "Unity (C#)",
+        "Hardware": "Arduino, Raspberry Pi, FPGA"
+    }
+]
