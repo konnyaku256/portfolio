@@ -1,39 +1,29 @@
 # portfolio
 
-## Project setup
+This is the source code of my [portfolio](https://konnyaku256.github.io).
+It is made of Vue.js.
+Use [Vue CLI](https://cli.vuejs.org) for development tools.
+
+## Feature
+- Single-Page Application(Vue Router)
+- Progressive Web Apps
+
+## Deployment
+Follow the [official references](https://cli.vuejs.org/guide/deployment.html).
+I push and deploy to [here](https://github.com/konnyaku256/konnyaku256.github.io).
+
+## How to run or build
 ```
-npm install
+git clone https://github.com/konnyaku256/portfolio.git
+cd portfolio
+npm run serve # Start local server.
+npm run build # Generate static files to 'dist/'.
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Licence
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
 
-### Run your tests
-```
-npm run test
-```
+## Author
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[@konnyaku256](https://twitter.com/konnyaku256)
