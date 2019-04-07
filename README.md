@@ -20,10 +20,8 @@ npm run serve # Start local server.
 npm run build # Generate static files to 'dist/'.
 ```
 
-## Licence
-
-[MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)
+## License
+[MIT](https://github.com/konnyaku256/portfolio/blob/master/LICENSE)
 
 ## Author
-
 [@konnyaku256](https://twitter.com/konnyaku256)
