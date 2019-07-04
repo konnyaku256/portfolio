@@ -1,7 +1,7 @@
 [
     {
         "Web (Client Side)": "React, Vue.js, TypeScript",
-        "Web (Server Side)": "PHP, Go",
+        "Web (Server Side)": "PHP, Golang",
         "DB": "MySQL, MongoDB",
         "Infrastructure": "Docker, Kubernetes, AWS, GCP",
         "Version": "Git, GitHub",
