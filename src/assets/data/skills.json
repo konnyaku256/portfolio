@@ -5,7 +5,7 @@
         "DB": "MySQL, MongoDB",
         "Infrastructure": "Docker, Kubernetes, AWS, GCP",
         "Version": "Git, GitHub",
-        "CI": "Jenkins",
+        "CI": "Jenkins, CircleCI",
         "Machine Learning": "TensorFlow, Keras",
         "Data Science": "Jupyter Notebook",
         "Game": "Unity (C#)",
