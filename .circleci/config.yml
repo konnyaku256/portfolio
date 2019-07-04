@@ -71,14 +71,14 @@ jobs:
 workflows:
   deploy:
     jobs:
-      - setup
+      - setup:
+          filters:
+            branches:
+                only:
+                  - master
       - build:
           requires:
             - setup
       - deploy:
           requires:
             - build
-      filters:
-          branches:
-              only:
-                - master
