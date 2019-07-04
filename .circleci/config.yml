@@ -58,7 +58,7 @@ jobs:
       - run:
           name: Deploy
           command: |
-            cd /dist
+            cd dist
             git config user.name "Circle CI"
             git config user.email "<>"
             git init
