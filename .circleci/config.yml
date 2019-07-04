@@ -49,10 +49,10 @@ jobs:
     executor:
       name: default
     steps:
+      - checkout
       - add_ssh_keys:
           fingerprints:
             - "91:82:db:8f:1c:46:d0:50:3d:fa:25:22:1b:48:dc:d5"
-      - checkout
       - attach_workspace:
           at: .
       - run:
