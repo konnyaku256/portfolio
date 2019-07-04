@@ -1,0 +1,84 @@
+version: 2.1
+executors:
+  default:
+    working_directory: ~/workspace
+    docker:
+      - image: node:12
+
+commands:
+  restore_npm:
+    steps:
+      - restore_cache:
+          name: Restore npm dependencies
+          key: npm-{{ checksum "package.json" }}
+
+  save_npm:
+    steps:
+      - save_cache:
+          name: Save npm dependencies
+          key: npm-{{ checksum "package.json" }}
+          paths:
+            - ~/workspace/node_modules
+
+jobs:
+  setup:
+    executor:
+      name: default
+    steps:
+      - checkout
+      - run:
+          name: Install dependencies
+          command: npm install
+      - save_npm
+
+  build:
+    executor:
+      name: default
+    steps:
+      - checkout
+      - restore_npm
+      - run:
+          name: Build
+          command: npm run build
+      - persist_to_workspace:
+        root: .
+        paths:
+          - /dist
+  
+  deploy:
+    executor:
+      name: default
+    steps:
+      - add_ssh_keys:
+        fingerprints:
+          - "91:82:db:8f:1c:46:d0:50:3d:fa:25:22:1b:48:dc:d5"
+      - checkout
+      - attach_workspace:
+        at: .
+      - run:
+          name: Deploy
+          command: |
+            cd /dist
+            git config user.name "Circle CI"
+            git config user.email "<>"
+            git init
+            git add -A
+            git commit -m "Deploy by CI"
+            git push -f git@github.com:konnyaku256/konnyaku256.github.io.git master
+            
+
+
+workflows:
+  deploy:
+    jobs:
+      - setup
+      - build:
+          requires:
+            - setup
+      - deploy:
+          requires:
+            - build
+      filters:
+          branches:
+              only:
+                - master
