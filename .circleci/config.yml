@@ -59,8 +59,8 @@ jobs:
           name: Deploy
           command: |
             cd dist
-            git config user.name "Circle CI"
-            git config user.email "<>"
+            git config --global user.name "Circle CI"
+            git config --global user.email "<>"
             git init
             git add -A
             git commit -m "Deploy by CI"
