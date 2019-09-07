@@ -1,14 +1,14 @@
 [
     {
         "Company": "teamLab Inc.",
-        "Position": "Client Side Engineer (part-time job)",
-        "Work": "Client application development",
+        "Position": "Client Engineer / part-time job",
+        "Work": "Programming contents development",
         "Period": "March 4, 2019 - March 29, 2019"
     },
     {
         "Company": "teamLab Inc.",
-        "Position": "Server Side Engineer (part-time job)",
-        "Work": "Web site, CMS development",
+        "Position": "Server-side Engineer / part-time job",
+        "Work": "CMS development",
         "Period": "February 20, 2019 - March 1, 2019"
     }
 ]
