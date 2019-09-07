@@ -1,15 +1,17 @@
 <template>
   <div class="table">
     <h3>{{ title }}</h3>
-    <div v-for='item in items'>
-      <table>
-        <tbody>
-          <tr v-for='(value, key) in item'>
-            <th>{{ key }}</th>
-            <td>{{ value }}</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="content">
+      <div v-for='item in items'>
+        <table>
+          <tbody>
+            <tr v-for='(value, key) in item'>
+              <th>{{ key }}</th>
+              <td>{{ value }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </template>
@@ -28,6 +30,9 @@ export default class Table extends Vue {
 .table {
   margin: 20px;
   width: 500px;
+  .content {
+    text-align: left;
+  }
 }
 table {
   margin: 0 0 20px 0;
