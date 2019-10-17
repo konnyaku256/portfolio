@@ -1,14 +1,14 @@
 [
-    {
-        "School": "National Institute of Technology, Suzuka College",
-        "Major": "Computer Science",
-        "Degree": "Bachelor of Engineering",
-        "Period": "April 2019 - March 2021 (expected)"
-    },
-    {
-        "School": "National Institute of Technology, Suzuka College",
-        "Major": "Computer Science",
-        "Degree": "Associate Degree of Engineering",
-        "Period": "April 2014 - March 2019"
-    }
+  {
+    "School": "National Institute of Technology, Suzuka College",
+    "Major": "Robotics Technology",
+    "Degree": "Bachelor of Engineering",
+    "Period": "April 2019 - March 2021 (expected)"
+  },
+  {
+    "School": "National Institute of Technology, Suzuka College",
+    "Major": "Electronic & Information Engineering",
+    "Degree": "Associate Degree of Engineering",
+    "Period": "April 2014 - March 2019"
+  }
 ]

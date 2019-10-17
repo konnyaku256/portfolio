@@ -1,15 +1,9 @@
 [
-    {
-        "Front-end": "React, Vue.js, TypeScript",
-        "Server-side": "PHP, Node.js, Golang, Rails",
-        "DB": "MySQL, MongoDB",
-        "VM": "Vagrant/VirtualBox, Docker",
-        "Infrastructure": "AWS, GCP",
-        "Version Control": "Git, GitHub",
-        "CI": "Jenkins, CircleCI",
-        "Machine Learning": "Python, TensorFlow, Keras, PyTorch",
-        "Data Science": "Jupyter Notebook",
-        "Game": "Unity (C#)",
-        "Hardware": "Arduino, Raspberry Pi, FPGA"
-    }
+  {
+    "★★★★★": "PHP, HTML, MySQL, Python, Docker, Git/GitHub",
+    "★★★★☆": "Golang, Vue.js, TypeScript, MongoDB, Unity(C#)",
+    "★★★☆☆": "C++, React, Node.js, SQL, TensorFlow, Keras, PyTorch",
+    "★★☆☆☆": "Rails, Java, CSS, Jupyter Notebook, CircleCI",
+    "★☆☆☆☆": "Kubernetes, AWS, GCP, Arduino, Raspberry Pi, FPGA"
+  }
 ]
