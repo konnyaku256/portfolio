@@ -1,5 +1,13 @@
 [
   {
+    "name": "blog.konnyaku256.dev",
+    "link": "https://github.com/konnyaku256/blog",
+    "thumb": "./img/konnyaku_diary.png",
+    "description": "技術ブログ",
+    "tool": "Hugo, Netlify",
+    "date": "January 2020"
+  },
+  {
     "name": "Hey Son",
     "link": "https://github.com/konnyaku256/hey-son",
     "thumb": "./img/heyson.png",
