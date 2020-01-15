@@ -1,7 +1,7 @@
 <template>
   <div id="home">
     <div>
-      <h1><font color="#1ABC9C">konnyaku256</font>.github.io</h1>
+      <h1><font color="#1ABC9C">konnyaku256</font>.dev</h1>
       <p>Welcome to Shuntaro Shimada's portfolio site!</p>
     </div>
   </div>

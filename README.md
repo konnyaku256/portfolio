@@ -1,6 +1,6 @@
 # portfolio
 
-This is the source code of my [portfolio](https://konnyaku256.github.io).
+This is the source code of my [portfolio](https://konnyaku256.dev).
 It is made of Vue.js.
 Use [Vue CLI](https://cli.vuejs.org) for development tools.
 
