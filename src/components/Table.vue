@@ -36,14 +36,23 @@ export default class Table extends Vue {
 }
 table {
   margin: 0 0 20px 0;
-  display: inline-block;
   text-align: left;
 }
 th {
   padding-right: 20px;
   font-weight: normal;
+  white-space: nowrap;
 }
 td {
   padding: 5px 0px;
+}
+@media screen and (max-width: 500px) {
+  .table {
+    margin: 20px;
+    width: 90%;
+    .content {
+      text-align: left;
+    }
+  }
 }
 </style>
