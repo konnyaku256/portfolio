@@ -34,7 +34,7 @@
   {
     "name": "REMOTEKI",
     "link": "",
-    "thumb": "",
+    "thumb": "./img/noimage.png",
     "description": "ネット射的サービス",
     "tool": "Node.js, Arduino, LeapMotion",
     "date": "September 2017 (2 months)"
@@ -42,7 +42,7 @@
   {
     "name": "Excel Anime",
     "link": "https://github.com/konnyaku256/Excel_Anime",
-    "thumb": "",
+    "thumb": "./img/noimage.png",
     "description": "ExcelでアニメOPを再現",
     "tool": "Excel, VBA, Python",
     "date": "September 2017"
@@ -58,7 +58,7 @@
   {
     "name": "PANZER×PANZER",
     "link": "",
-    "thumb": "",
+    "thumb": "./img/noimage.png",
     "description": "戦車戦対戦型オンラインゲーム",
     "tool": "Unity, C#, Photon",
     "date": "September 2016 (2 weeks)"

@@ -2,10 +2,10 @@
   <div class="table">
     <h3>{{ title }}</h3>
     <div class="content">
-      <div v-for='item in items'>
+      <div v-for="(item, key) in items" :key="key">
         <table>
           <tbody>
-            <tr v-for='(value, key) in item'>
+            <tr v-for="(value, key) in item" :key="key">
               <th>{{ key }}</th>
               <td>{{ value }}</td>
             </tr>
@@ -36,14 +36,23 @@ export default class Table extends Vue {
 }
 table {
   margin: 0 0 20px 0;
-  display: inline-block;
   text-align: left;
 }
 th {
   padding-right: 20px;
   font-weight: normal;
+  white-space: nowrap;
 }
 td {
   padding: 5px 0px;
+}
+@media screen and (max-width: 500px) {
+  .table {
+    margin: 20px;
+    width: 90%;
+    .content {
+      text-align: left;
+    }
+  }
 }
 </style>

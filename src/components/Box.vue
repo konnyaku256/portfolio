@@ -2,10 +2,12 @@
   <div class='box'>
     <img v-bind:src="items.thumb">
     <div class="content">
-    <h3>{{ items.name }}</h3>
-    <div>{{ items.description }}</div>
-    <div>{{ items.tool }}</div>
-    <div>{{ items.date }}</div>
+      <div class="content-text">
+      <h3>{{ items.name }}</h3>
+      <div>{{ items.description }}</div>
+      <div>{{ items.tool }}</div>
+      <div>{{ items.date }}</div>
+      </div>
     </div>
     <a v-bind:href="items.link"></a>
   </div>
@@ -24,20 +26,22 @@ export default class Box extends Vue {
 .box {
   position: relative;
   margin: 10px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   background-color: #ECF0F1;
   img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 175px;
   }
   .content {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
-	  height: auto;
+	  height: 175px;
     background-color: #ECF0F1;
-    padding: 0 0 20px 0;
+    .content-text {
+      padding: 10px 0 0 0;
+    }
   }
   &:hover .content{
     background-color: #1ABC9C;

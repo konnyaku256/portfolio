@@ -36,8 +36,7 @@ export default class About extends Vue {
   width: 100vw;
   height: calc(100vh - 100px);
   overflow: auto;
-  display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
 }
 </style>
