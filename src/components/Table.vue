@@ -2,10 +2,10 @@
   <div class="table">
     <h3>{{ title }}</h3>
     <div class="content">
-      <div v-for='item in items'>
+      <div v-for="(item, key) in items" :key="key">
         <table>
           <tbody>
-            <tr v-for='(value, key) in item'>
+            <tr v-for="(value, key) in item" :key="key">
               <th>{{ key }}</th>
               <td>{{ value }}</td>
             </tr>
