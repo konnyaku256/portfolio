@@ -1,6 +1,6 @@
 <template>
   <div class="products">
-    <Box v-for='product in products' v-bind:items='product'></Box>
+    <Box v-for='product in products' v-bind:items='product' v-bind:key='product'></Box>
   </div>
 </template>
 
