@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Home from '@/views/Home.vue';
 import About from '@/views/About.vue';
 import Products from '@/views/Products.vue';
+import NotFound from '@/views/NotFound.vue';
 
 Vue.use(Router);
 
@@ -24,6 +25,11 @@ export default new Router({
       path: '/products',
       name: 'products',
       component: Products,
+    },
+    {
+      path: '*',
+      name: '404 Not Found',
+      component: NotFound,
     },
   ],
 });
