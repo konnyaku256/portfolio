@@ -1,8 +1,14 @@
 <template>
   <div class="header">
-    <router-link to="/"><h2>Home</h2></router-link>
-    <router-link to="/about"><h2>About</h2></router-link>
-    <router-link to="/products"><h2>Products</h2></router-link>
+    <router-link to="/">
+      <h2>Home</h2>
+    </router-link>
+    <router-link to="/about">
+      <h2>About</h2>
+    </router-link>
+    <router-link to="/products">
+      <h2>Products</h2>
+    </router-link>
   </div>
 </template>
 
@@ -13,7 +19,7 @@
   width: 100vw;
   height: 50px;
   color: #ffffff;
-  background-color: #34495E;
+  background-color: #34495e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,10 +29,10 @@
     color: #ffffff;
     text-decoration: none;
     &:hover {
-      color: #1ABC9C;
+      color: #1abc9c;
     }
     &.router-link-exact-active {
-      color: #1ABC9C;
+      color: #1abc9c;
     }
   }
 }

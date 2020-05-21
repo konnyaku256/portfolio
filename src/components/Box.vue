@@ -1,12 +1,12 @@
 <template>
-  <div class='box'>
-    <img v-bind:src="items.thumb">
+  <div class="box">
+    <img v-bind:src="items.thumb" />
     <div class="content">
       <div class="content-text">
-      <h3>{{ items.name }}</h3>
-      <div>{{ items.description }}</div>
-      <div>{{ items.tool }}</div>
-      <div>{{ items.date }}</div>
+        <h3>{{ items.name }}</h3>
+        <div>{{ items.description }}</div>
+        <div>{{ items.tool }}</div>
+        <div>{{ items.date }}</div>
       </div>
     </div>
     <a v-bind:href="items.link"></a>
@@ -14,7 +14,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from 'vue-property-decorator';
+import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
 export default class Box extends Vue {
@@ -28,7 +28,7 @@ export default class Box extends Vue {
   margin: 10px;
   width: 350px;
   height: 350px;
-  background-color: #ECF0F1;
+  background-color: #ecf0f1;
   img {
     width: 100%;
     height: 175px;
@@ -37,14 +37,14 @@ export default class Box extends Vue {
     position: absolute;
     bottom: 0px;
     width: 100%;
-	  height: 175px;
-    background-color: #ECF0F1;
+    height: 175px;
+    background-color: #ecf0f1;
     .content-text {
       padding: 10px 0 0 0;
     }
   }
-  &:hover .content{
-    background-color: #1ABC9C;
+  &:hover .content {
+    background-color: #1abc9c;
   }
   a {
     position: absolute;
