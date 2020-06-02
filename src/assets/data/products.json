@@ -1,5 +1,13 @@
 [
   {
+    "name": "uzimaraiser",
+    "link": "https://uzimaraiser.now.sh",
+    "thumb": "./img/uzimaraiser.png",
+    "description": "GitHub contributionsでうじまるを育てるゲーム",
+    "tool": "Vue, TypeScript, tailwindcss, Vercel",
+    "date": "June 2020 (3 days)"
+  },
+  {
     "name": "blog.konnyaku256.dev",
     "link": "https://github.com/konnyaku256/blog",
     "thumb": "./img/konnyaku_diary.png",
