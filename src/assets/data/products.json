@@ -24,6 +24,14 @@
     "date": "January 2020"
   },
   {
+    "name": "Time Saving System (TSS)",
+    "link": "https://github.com/tss-nitsc",
+    "thumb": "./img/tss.png",
+    "description": "バザーチケット発券&待ち時間短縮システム",
+    "tool": "Nuxt.js, Flutter, Firebase",
+    "date": "January 2020"
+  },
+  {
     "name": "konnyaku256.dev",
     "link": "https://github.com/konnyaku256/portfolio",
     "thumb": "./img/ogp.png",
