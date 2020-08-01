@@ -1,6 +1,6 @@
 <template>
   <div class="box">
-    <img v-bind:src="items.thumb" />
+    <img v-bind:src="items.thumb" loading="lazy" />
     <div class="content">
       <div class="content-text">
         <h3>{{ items.name }}</h3>
