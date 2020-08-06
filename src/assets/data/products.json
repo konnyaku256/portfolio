@@ -58,7 +58,7 @@
   {
     "name": "Excel Anime",
     "link": "https://github.com/konnyaku256/Excel_Anime",
-    "thumb": "./img/noimage.png",
+    "thumb": "./img/excel_anime.png",
     "description": "ExcelでアニメOPを再現",
     "tool": "Excel, VBA, Python",
     "date": "September 2017"
