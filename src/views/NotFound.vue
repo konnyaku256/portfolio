@@ -8,7 +8,6 @@
   </div>
 </template>
 
-
 <style lang='scss'>
 #notfound {
   position: absolute;

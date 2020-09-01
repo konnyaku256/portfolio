@@ -14,7 +14,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from "@vue/composition-api";
+import { defineComponent, PropType } from '@vue/composition-api';
 
 interface Item {
   name: string;
@@ -28,10 +28,10 @@ interface Item {
 export default defineComponent({
   props: {
     item: {
-      type: Object as PropType<Item>
-    }
-  }
-})
+      type: Object as PropType<Item>,
+    },
+  },
+});
 </script>
 
 <style lang="scss">

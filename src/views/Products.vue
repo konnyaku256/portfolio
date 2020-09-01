@@ -5,23 +5,23 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, toRefs, reactive } from "@vue/composition-api";
-import Box from "@/components/Box.vue";
-import products from "@/assets/data/products.json";
+import { defineComponent, toRefs, reactive } from '@vue/composition-api';
+import Box from '@/components/Box.vue';
+import products from '@/assets/data/products.json';
 
 export default defineComponent({
   components: {
-    Box
+    Box,
   },
   setup() {
     const state = reactive({
-       products: products
+      products,
     });
     return {
       ...toRefs(state),
     };
-  }
-})
+  },
+});
 </script>
 
 <style lang='scss'>
