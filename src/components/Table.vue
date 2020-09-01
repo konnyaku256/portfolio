@@ -17,13 +17,18 @@
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+import { defineComponent } from "@vue/composition-api";
 
-@Component
-export default class Table extends Vue {
-  @Prop() private items!: any[];
-  @Prop() private title!: string;
-}
+export default defineComponent({
+  props: {
+    items: {
+      type: Object
+    },
+    title: {
+      type: String
+    }
+  }
+})
 </script>
 
 <style lang='scss'>

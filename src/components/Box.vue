@@ -1,25 +1,37 @@
 <template>
   <div class="box">
-    <img v-bind:src="items.thumb" loading="lazy" />
+    <img v-bind:src="item.thumb" loading="lazy" />
     <div class="content">
       <div class="content-text">
-        <h3>{{ items.name }}</h3>
-        <div>{{ items.description }}</div>
-        <div>{{ items.tool }}</div>
-        <div>{{ items.date }}</div>
+        <h3>{{ item.name }}</h3>
+        <div>{{ item.description }}</div>
+        <div>{{ item.tool }}</div>
+        <div>{{ item.date }}</div>
       </div>
     </div>
-    <a v-bind:href="items.link"></a>
+    <a v-bind:href="item.link"></a>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+import { defineComponent, PropType } from "@vue/composition-api";
 
-@Component
-export default class Box extends Vue {
-  @Prop() private items!: any[];
-}
+interface Item {
+  name: string;
+  link: string;
+  thumb: string;
+  description: string;
+  tool: string;
+  date: string;
+};
+
+export default defineComponent({
+  props: {
+    item: {
+      type: Object as PropType<Item>
+    }
+  }
+})
 </script>
 
 <style lang="scss">

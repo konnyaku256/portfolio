@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { defineComponent, toRefs, reactive } from "@vue/composition-api";
 import Table from "@/components/Table.vue";
 
 import personal from "@/assets/data/personal.json";
@@ -16,17 +16,22 @@ import education from "@/assets/data/education.json";
 import experience from "@/assets/data/experience.json";
 import skills from "@/assets/data/skills.json";
 
-@Component({
+export default defineComponent({
   components: {
     Table
+  },
+  setup() {
+    const state = reactive({
+      personal: personal,
+      education: education,
+      experience: experience,
+      skills: skills
+    });
+    return {
+      ...toRefs(state),
+    };
   }
 })
-export default class About extends Vue {
-  private personal = personal;
-  private education = education;
-  private experience = experience;
-  private skills = skills;
-}
 </script>
 
 <style lang='scss'>

@@ -1,22 +1,27 @@
 <template>
   <div class="products">
-    <Box v-for="product in products" v-bind:items="product" v-bind:key="product"></Box>
+    <Box v-for="product in products" v-bind:item="product" v-bind:key="product"></Box>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Vue } from "vue-property-decorator";
+import { defineComponent, toRefs, reactive } from "@vue/composition-api";
 import Box from "@/components/Box.vue";
 import products from "@/assets/data/products.json";
 
-@Component({
+export default defineComponent({
   components: {
     Box
+  },
+  setup() {
+    const state = reactive({
+       products: products
+    });
+    return {
+      ...toRefs(state),
+    };
   }
 })
-export default class Projects extends Vue {
-  private products = products;
-}
 </script>
 
 <style lang='scss'>
