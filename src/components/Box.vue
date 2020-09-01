@@ -23,7 +23,7 @@ interface Item {
   description: string;
   tool: string;
   date: string;
-};
+}
 
 export default defineComponent({
   props: {
