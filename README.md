@@ -21,9 +21,9 @@ I use [CircleCI](https://circleci.com/) for CI/CD.
 ```
 git clone https://github.com/konnyaku256/portfolio.git
 cd portfolio
-npm install
-npm run serve # Start local server.
-npm run build # Generate static files to 'dist/'.
+yarn install
+yarn serve # Start local server.
+yarn build # Generate static files to 'dist/'.
 ```
 
 ## License
