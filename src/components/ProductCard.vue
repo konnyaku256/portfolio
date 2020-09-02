@@ -1,22 +1,22 @@
 <template>
-  <div class="box">
-    <img v-bind:src="item.thumb" loading="lazy" />
+  <div class="product-card">
+    <img v-bind:src="product.thumb" loading="lazy" />
     <div class="content">
       <div class="content-text">
-        <h3>{{ item.name }}</h3>
-        <div>{{ item.description }}</div>
-        <div>{{ item.tool }}</div>
-        <div>{{ item.date }}</div>
+        <h3>{{ product.name }}</h3>
+        <div>{{ product.description }}</div>
+        <div>{{ product.tool }}</div>
+        <div>{{ product.date }}</div>
       </div>
     </div>
-    <a v-bind:href="item.link"></a>
+    <a v-bind:href="product.link"></a>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, PropType } from '@vue/composition-api';
 
-interface Item {
+interface Product {
   name: string;
   link: string;
   thumb: string;
@@ -27,15 +27,15 @@ interface Item {
 
 export default defineComponent({
   props: {
-    item: {
-      type: Object as PropType<Item>,
+    product: {
+      type: Object as PropType<Product>,
     },
   },
 });
 </script>
 
 <style lang="scss">
-.box {
+.product-card {
   position: relative;
   margin: 10px;
   width: 350px;

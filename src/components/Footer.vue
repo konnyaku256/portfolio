@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <div id="footer">
     <a href="https://twitter.com/konnyaku256">
       <i class="fab fa-twitter"></i>
     </a>
@@ -19,7 +19,7 @@
 </template>
 
 <style lang="scss">
-.footer {
+#footer {
   bottom: 0px;
   position: absolute;
   width: 100vw;

@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
+  <div id="about">
     <Table title="Personal Details" v-bind:items="personal"></Table>
     <Table title="Education" v-bind:items="education"></Table>
     <Table title="Experience" v-bind:items="experience"></Table>
@@ -35,7 +35,7 @@ export default defineComponent({
 </script>
 
 <style lang='scss'>
-.about {
+#about {
   position: absolute;
   top: 50px;
   width: 100vw;

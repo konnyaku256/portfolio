@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <div id="header">
     <router-link to="/">
       <h2>Home</h2>
     </router-link>
@@ -13,7 +13,7 @@
 </template>
 
 <style lang="scss">
-.header {
+#header {
   top: 0px;
   position: absolute;
   width: 100vw;

@@ -1,17 +1,20 @@
 <template>
-  <div class="products">
-    <Box v-for="product in products" v-bind:item="product" v-bind:key="product"></Box>
+  <div id="products">
+    <ProductCard v-for="product in products"
+      v-bind:product="product"
+      v-bind:key="product">
+    </ProductCard>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, toRefs, reactive } from '@vue/composition-api';
-import Box from '@/components/Box.vue';
+import ProductCard from '@/components/ProductCard.vue';
 import products from '@/assets/data/products.json';
 
 export default defineComponent({
   components: {
-    Box,
+    ProductCard,
   },
   setup() {
     const state = reactive({
@@ -25,7 +28,7 @@ export default defineComponent({
 </script>
 
 <style lang='scss'>
-.products {
+#products {
   position: absolute;
   top: 50px;
   width: 100vw;
