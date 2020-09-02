@@ -43,5 +43,6 @@ export default defineComponent({
   overflow: auto;
   justify-content: center;
   display: grid;
+  text-align: center;
 }
 </style>

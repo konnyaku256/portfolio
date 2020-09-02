@@ -27,7 +27,6 @@ body {
   font-style: normal;
   margin: 0;
   padding: 0;
-  text-align: center;
   color: #34495e;
   word-break: break-all;
 }
