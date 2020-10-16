@@ -1,8 +1,8 @@
 <template>
   <div id="about">
-    <Table title="Personal Details" v-bind:items="personal"></Table>
+    <Table title="Personal details" v-bind:items="personal"></Table>
     <Table title="Education" v-bind:items="education"></Table>
-    <Table title="Experience" v-bind:items="experience"></Table>
+    <Table title="Work experience" v-bind:items="experience"></Table>
     <Table title="Skills" v-bind:items="skills"></Table>
   </div>
 </template>
