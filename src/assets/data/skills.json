@@ -1,9 +1,9 @@
 [
   {
-    "★★★★★": "PHP, HTML, MySQL, Python, Docker, Git/GitHub",
-    "★★★★☆": "Golang, Vue.js, TypeScript, MongoDB, Unity(C#)",
-    "★★★☆☆": "C++, React, Node.js, SQL, TensorFlow, Keras, PyTorch",
+    "★★★★★": "Golang, Vue.js, TypeScript, HTML, MySQL, Docker, Git/GitHub",
+    "★★★★☆": "PHP, Python, Node.js, MongoDB, Unity(C#)",
+    "★★★☆☆": "GCP, C++, React, SQL, TensorFlow, Keras, PyTorch",
     "★★☆☆☆": "Rails, Java, CSS, Jupyter Notebook, CircleCI",
-    "★☆☆☆☆": "Kubernetes, AWS, GCP, Arduino, Raspberry Pi, FPGA"
+    "★☆☆☆☆": "Kubernetes, AWS, Arduino, Raspberry Pi, FPGA"
   }
 ]
