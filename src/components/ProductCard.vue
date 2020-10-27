@@ -1,21 +1,23 @@
 <template>
-  <div class="product-card">
-    <img v-bind:src="product.thumb" loading="lazy" />
-    <div class="card-content">
-      <div class="card-title">
-        {{ product.name }}
-      </div>
-      <div class="card-subtitle">
-        {{ product.description }}
-      </div>
-      <div class="card-tool">
-        <div>{{ product.tool }}</div>
-      </div>
-      <div class="card-date">
-        <div>{{ product.date }}</div>
-      </div>
-    </div>
-    <a v-bind:href="product.link"></a>
+  <div class="product-card w-full max-w-sm rounded overflow-hidden shadow-lg">
+    <a v-bind:href="product.link" class="block w-full h-full">
+      <picture>
+        <img v-bind:src="product.thumb" loading="lazy" class="w-full" />
+      </picture>
+      <section class="px-3 py-2 lg:px-6 lg:py-4">
+        <h3 class="font-bold text-lg lg:text-xl mb-2">
+          {{ product.name }}
+        </h3>
+        <p class="text-sm lg:text-base">
+          {{ product.description }}
+        </p>
+      </section>
+      <ul class="p-3 lg:px-6 lg:py-4">
+        <li v-for="tag in product.tags" v-bind:key="tag" class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm lg:text-base font-semibold text-gray-700 mr-2 mb-2">
+          {{ tag }}
+        </li>
+      </ul>
+    </a>
   </div>
 </template>
 
@@ -27,8 +29,7 @@ interface Product {
   link: string;
   thumb: string;
   description: string;
-  tool: string;
-  date: string;
+  tags: string[];
 }
 
 export default defineComponent({
@@ -42,58 +43,12 @@ export default defineComponent({
 
 <style lang="scss">
 .product-card {
-  position: relative;
-  margin: 10px;
-  width: 350px;
-  height: 350px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba($color: #000000, $alpha: 0.2);
-  transition: 0.2s;
-  img {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    width: 100%;
-    height: 175px;
-  }
-  .card-content {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    height: 175px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    .card-title {
-      align-items: center;
-      font-size: 22px;
-      font-weight: bold;
-      padding: 16px;
-    }
-    .card-subtitle {
-      align-items: center;
-      padding: 16px;
-      margin-top: -32px;
-    }
-    .card-tool {
-      align-items: center;
-      margin-top: -16px;
-      padding: 16px;
-    }
-    .card-date {
-      align-items: center;
-      padding: 16px;
-      position: absolute;
-      bottom: 0px;
-    }
-  }
   &:hover {
-    box-shadow: 0 10px 20px 0 rgba($color: #000000, $alpha: 0.2);
+    opacity: 0.8;
   }
-  a {
-    position: absolute;
-    top: 0;
-    left: 0;
+  img {
     width: 100%;
-    height: 100%;
+    height: 175px;
   }
 }
 </style>

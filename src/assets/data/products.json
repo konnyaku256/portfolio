@@ -4,7 +4,7 @@
     "link": "https://uzimaraiser.now.sh",
     "thumb": "./img/uzimaraiser.png",
     "description": "GitHub contributionsでうじまるを育てるゲーム",
-    "tool": "Vue, TypeScript, tailwindcss, Vercel",
+    "tags": ["Vue", "TypeScript", "tailwindcss", "Vercel"],
     "date": "June 2020 (3 days)"
   },
   {
@@ -12,7 +12,7 @@
     "link": "https://github.com/konnyaku256/blog",
     "thumb": "./img/konnyaku_diary.png",
     "description": "技術ブログ",
-    "tool": "Hugo, Netlify",
+    "tags": ["Hugo", "Netlify"],
     "date": "January 2020"
   },
   {
@@ -20,7 +20,7 @@
     "link": "https://github.com/konnyaku256/hey-son",
     "thumb": "./img/heyson.png",
     "description": "ママさんのための息子呼び出しシステム",
-    "tool": "Vue.js, Golang, Raspberry Pi",
+    "tags": ["Vue.js", "Golang", "Raspberry Pi"],
     "date": "January 2020"
   },
   {
@@ -28,7 +28,7 @@
     "link": "https://github.com/tss-nitsc",
     "thumb": "./img/tss.png",
     "description": "バザーチケット発券&待ち時間短縮システム",
-    "tool": "Nuxt.js, Flutter, Firebase",
+    "tags": ["Nuxt.js", "Flutter", "Firebase"],
     "date": "January 2020"
   },
   {
@@ -36,7 +36,7 @@
     "link": "https://github.com/konnyaku256/portfolio",
     "thumb": "./img/ogp.png",
     "description": "私のポートフォリオサイト",
-    "tool": "Vue.js, TypeScript",
+    "tags": ["Vue.js", "TypeScript"],
     "date": "April 2019"
   },
   {
@@ -44,7 +44,7 @@
     "link": "https://protopedia.net/prototype/8c01a75941549a705cf7275e41b21f0d",
     "thumb": "./img/finepay.png",
     "description": "家庭内お小遣い管理サービス",
-    "tool": "LINE Bot, Clova Skill",
+    "tags": ["LINE Bot", "Clova Skill"],
     "date": "Desember 2018 (2 days)"
   },
   {
@@ -52,7 +52,7 @@
     "link": "",
     "thumb": "./img/noimage.png",
     "description": "ネット射的サービス",
-    "tool": "Node.js, Arduino, LeapMotion",
+    "tags": ["Node.js", "Arduino", "LeapMotion"],
     "date": "September 2017 (2 months)"
   },
   {
@@ -60,7 +60,7 @@
     "link": "https://github.com/konnyaku256/Excel_Anime",
     "thumb": "./img/excel_anime.png",
     "description": "ExcelでアニメOPを再現",
-    "tool": "Excel, VBA, Python",
+    "tags": ["Excel", "VBA", "Python"],
     "date": "September 2017"
   },
   {
@@ -68,7 +68,7 @@
     "link": "",
     "thumb": "./img/janken.png",
     "description": "オンラインじゃんけん対戦サービス",
-    "tool": "CakePHP, MySQL",
+    "tags": ["CakePHP", "MySQL"],
     "date": "March 2017 (1 month)"
   },
   {
@@ -76,7 +76,7 @@
     "link": "",
     "thumb": "./img/noimage.png",
     "description": "戦車戦対戦型オンラインゲーム",
-    "tool": "Unity, C#, Photon",
+    "tags": ["Unity", "C#", "Photon"],
     "date": "September 2016 (2 weeks)"
   },
   {
@@ -84,7 +84,7 @@
     "link": "https://github.com/konnyaku256/shunkashuutou",
     "thumb": "./img/shunkashuutou.png",
     "description": "2D弾幕シューティングゲーム",
-    "tool": "Unity, C#",
+    "tags": ["Unity", "C#"],
     "date": "September 2016 (2 weeks)"
   }
 ]

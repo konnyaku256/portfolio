@@ -1,9 +1,12 @@
 <template>
   <div id="products">
-    <ProductCard v-for="product in products"
-      v-bind:product="product"
-      v-bind:key="product">
-    </ProductCard>
+    <section class="m-4 lg:m-16">
+      <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full">
+        <li v-for="product in products" v-bind:key="product.name" class="p-4 flex justify-center flex-wrap">
+          <ProductCard v-bind:product="product" />
+        </li>
+      </ul>
+    </section>
   </div>
 </template>
 
@@ -32,10 +35,7 @@ export default defineComponent({
   position: absolute;
   top: 50px;
   width: 100vw;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 50px * 2);
   overflow: auto;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 </style>

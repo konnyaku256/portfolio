@@ -1,13 +1,13 @@
 <template>
   <div id="header">
     <router-link to="/">
-      <h2>Home</h2>
+      <h2 class="text-xl lg:text-2xl font-medium">Home</h2>
     </router-link>
     <router-link to="/about">
-      <h2>About</h2>
+      <h2 class="text-xl lg:text-2xl font-medium">About</h2>
     </router-link>
     <router-link to="/products">
-      <h2>Products</h2>
+      <h2 class="text-xl lg:text-2xl font-medium">Products</h2>
     </router-link>
   </div>
 </template>

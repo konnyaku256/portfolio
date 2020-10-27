@@ -1,7 +1,7 @@
 <template>
   <div class="table">
-    <h3>{{ title }}</h3>
-    <div class="content">
+    <h3 class="font-bold text-lg lg:text-xl mb-2">{{ title }}</h3>
+    <div class="content text-sm lg:text-base">
       <div v-for="(item, key) in items" :key="key">
         <table>
           <tbody>
@@ -22,7 +22,7 @@ import { defineComponent } from '@vue/composition-api';
 export default defineComponent({
   props: {
     items: {
-      type: Object,
+      type: Array,
     },
     title: {
       type: String,
