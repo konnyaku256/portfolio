@@ -20,7 +20,7 @@ export default {
 
 <style lang="scss">
 body {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: "Avenir", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
