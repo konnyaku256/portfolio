@@ -1,5 +1,13 @@
 [
   {
+    "name": "keiGo",
+    "link": "https://github.com/aizu-go-kapro/keiGo",
+    "thumb": "./img/keigo.png",
+    "description": "敬語変換Webアプリケーション",
+    "tags": ["React", "TypeScript", "Golang", "Netlify", "Cloud Run"],
+    "date": "October 2020"
+  },
+  {
     "name": "uzimaraiser",
     "link": "https://uzimaraiser.now.sh",
     "thumb": "./img/uzimaraiser.png",
