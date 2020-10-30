@@ -4,7 +4,7 @@
     "link": "https://uzimaraiser.now.sh",
     "thumb": "./img/uzimaraiser.png",
     "description": "GitHub contributionsでうじまるを育てるゲーム",
-    "tags": ["Vue", "TypeScript", "tailwindcss", "Vercel"],
+    "tags": ["Vue.js", "TypeScript", "tailwindcss", "Vercel"],
     "date": "June 2020 (3 days)"
   },
   {
