@@ -3,6 +3,8 @@
     <Table title="Personal details" v-bind:items="personal"></Table>
     <Table title="Education" v-bind:items="education"></Table>
     <Table title="Work experience" v-bind:items="experience"></Table>
+    <Table title="Awards" v-bind:items="awards"></Table>
+    <Table title="Certificates" v-bind:items="certificates"></Table>
     <Table title="Skills" v-bind:items="skills"></Table>
   </div>
 </template>
@@ -14,6 +16,8 @@ import Table from '@/components/Table.vue';
 import personal from '@/assets/data/personal.json';
 import education from '@/assets/data/education.json';
 import experience from '@/assets/data/experience.json';
+import awards from '@/assets/data/awards.json';
+// import certificates from '@/assets/data/certificates.json';
 import skills from '@/assets/data/skills.json';
 
 export default defineComponent({
@@ -25,6 +29,8 @@ export default defineComponent({
       personal,
       education,
       experience,
+      awards,
+      // certificates,
       skills,
     });
     return {
