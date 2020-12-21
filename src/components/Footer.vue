@@ -9,6 +9,9 @@
     <a href="https://blog.konnyaku256.dev">
       <i class="fas fa-blog"></i>
     </a>
+    <a href="https://zenn.dev/konnyaku256">
+      <img src="https://simpleicons.org/icons/zenn.svg" width="24" height="24" style="filter: invert(1)">
+    </a>
     <a href="https://medium.com/@konnyaku256">
       <i class="fab fa-medium"></i>
     </a>
