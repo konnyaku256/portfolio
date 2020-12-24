@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, toRefs, reactive } from '@vue/composition-api';
+import { defineComponent, toRefs, reactive } from 'vue';
 import ProductCard from '@/components/ProductCard.vue';
 import products from '@/assets/data/products.json';
 
