@@ -10,7 +10,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, toRefs, reactive } from '@vue/composition-api';
+import { defineComponent, toRefs, reactive } from 'vue';
 import Table from '@/components/Table.vue';
 
 import personal from '@/assets/data/personal.json';

@@ -1,17 +1,12 @@
-import Vue from 'vue';
-import VueCompositionApi from '@vue/composition-api';
+import { createApp } from 'vue';
 import App from './App.vue';
 import router from './router';
 import store from './store';
 // import './registerServiceWorker';
 import '@/assets/styles/tailwind.css';
 
-Vue.config.productionTip = false;
+const app = createApp(App);
+app.use(router);
+app.use(store);
 
-Vue.use(VueCompositionApi);
-
-new Vue({
-  router,
-  store,
-  render: (h) => h(App),
-}).$mount('#app');
+app.mount('#app');
