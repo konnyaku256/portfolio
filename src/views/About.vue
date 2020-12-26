@@ -17,7 +17,7 @@ import personal from '@/assets/data/personal.json';
 import education from '@/assets/data/education.json';
 import experience from '@/assets/data/experience.json';
 import awards from '@/assets/data/awards.json';
-// import certificates from '@/assets/data/certificates.json';
+import certificates from '@/assets/data/certificates.json';
 import skills from '@/assets/data/skills.json';
 
 export default defineComponent({
@@ -30,7 +30,7 @@ export default defineComponent({
       education,
       experience,
       awards,
-      // certificates,
+      certificates,
       skills,
     });
     return {
