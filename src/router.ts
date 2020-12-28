@@ -1,8 +1,8 @@
 import { createWebHistory, createRouter, RouteRecordRaw } from 'vue-router';
-import Home from '@/views/Home.vue';
-import About from '@/views/About.vue';
-import Products from '@/views/Products.vue';
-import NotFound from '@/views/NotFound.vue';
+import Home from './views/Home.vue';
+import About from './views/About.vue';
+import Products from './views/Products.vue';
+import NotFound from './views/NotFound.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {

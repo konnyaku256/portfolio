@@ -12,8 +12,8 @@
 
 <script lang="ts">
 import { defineComponent, toRefs, reactive } from 'vue';
-import ProductCard from '@/components/ProductCard.vue';
-import products from '@/assets/data/products.json';
+import ProductCard from '../components/ProductCard.vue';
+import products from '../assets/data/products.json';
 
 export default defineComponent({
   components: {
