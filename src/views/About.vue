@@ -11,14 +11,14 @@
 
 <script lang="ts">
 import { defineComponent, toRefs, reactive } from 'vue';
-import Table from '@/components/Table.vue';
+import Table from '../components/Table.vue';
 
-import personal from '@/assets/data/personal.json';
-import education from '@/assets/data/education.json';
-import experience from '@/assets/data/experience.json';
-import awards from '@/assets/data/awards.json';
-// import certificates from '@/assets/data/certificates.json';
-import skills from '@/assets/data/skills.json';
+import personal from '../assets/data/personal.json';
+import education from '../assets/data/education.json';
+import experience from '../assets/data/experience.json';
+import awards from '../assets/data/awards.json';
+// import certificates from './../assets/data/certificates.json';
+import skills from '../assets/data/skills.json';
 
 export default defineComponent({
   components: {

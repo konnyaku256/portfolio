@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "dev": "vite",
+    "build": "vite build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint"
@@ -40,6 +40,7 @@
     "sass": "^1.17.2",
     "sass-loader": "^10.0.4",
     "typescript": "~3.9.3",
+    "vite": "^1.0.0-rc.13",
     "vue-template-compiler": "^2.5.21"
   }
 }
