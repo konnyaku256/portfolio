@@ -17,6 +17,11 @@
           {{ tag }}
         </li>
       </ul>
+      <section class="px-3 py-2 lg:px-6 lg:py-4">
+        <p class="text-sm lg:text-base">
+          {{ product.date }}
+        </p>
+      </section>
     </a>
   </div>
 </template>
