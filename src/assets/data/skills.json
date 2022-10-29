@@ -1,9 +1,9 @@
 [
   {
-    "★★★★★": "Golang, Vue.js, TypeScript, HTML, MySQL, Docker, Git/GitHub",
-    "★★★★☆": "PHP, Python, Node.js, MongoDB, Unity(C#)",
-    "★★★☆☆": "GCP, C++, React, SQL, TensorFlow, Keras, PyTorch",
-    "★★☆☆☆": "Rails, Java, CSS, Jupyter Notebook, CircleCI",
-    "★☆☆☆☆": "Kubernetes, AWS, Arduino, Raspberry Pi, FPGA"
+    "★★★★★": "Flutter, Golang, SQL, MySQL, PostgreSQL, Docker, Git/GitHub, GCP, AWS",
+    "★★★★☆": "Hasura, Auth0, Next,js, Vue.js, TypeScript, HTML, PHP, Codemagic",
+    "★★★☆☆": "Unity(C#), Python, Node.js, CSS, CircleCI",
+    "★★☆☆☆": "Kubernetes, C++, Rails, Java, TensorFlow, Keras, PyTorch, Jupyter Notebook",
+    "★☆☆☆☆": "MongoDB, Arduino, Raspberry Pi, FPGA"
   }
 ]
