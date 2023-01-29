@@ -1,9 +1,245 @@
 [
   {
-    "★★★★★": "Flutter, Golang, SQL, MySQL, PostgreSQL, Docker, Git/GitHub, GCP, AWS",
-    "★★★★☆": "Hasura, Auth0, Next,js, Vue.js, TypeScript, HTML, PHP, Codemagic",
-    "★★★☆☆": "Unity(C#), Python, Node.js, CSS, CircleCI",
-    "★★☆☆☆": "Kubernetes, C++, Rails, Java, TensorFlow, Keras, PyTorch, Jupyter Notebook",
-    "★☆☆☆☆": "MongoDB, Arduino, Raspberry Pi, FPGA"
+    "level": 5,
+    "icon": "./img/tech-icons/aws.png",
+    "name": "Amazon Web Services",
+    "link": "https://aws.amazon.com/",
+    "description": "各プロジェクトのインフラ構築・運用",
+    "tags": ["業務開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 5,
+    "icon": "./img/tech-icons/docker.png",
+    "name": "Docker",
+    "link": "https://www.docker.com/",
+    "description": "バックエンドの環境構築・開発",
+    "tags": ["個人開発", "業務開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 5,
+    "icon": "./img/tech-icons/flutter.png",
+    "name": "Flutter",
+    "link": "https://flutter.dev/",
+    "description": "「ShareDiary」などのスマホアプリ開発",
+    "tags": ["個人開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 5,
+    "icon": "./img/tech-icons/github.png",
+    "name": "GitHub",
+    "link": "https://github.com/",
+    "description": "各プロジェクトの開発・公開",
+    "tags": ["個人開発", "業務開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 5,
+    "icon": "./img/tech-icons/git.png",
+    "name": "Git",
+    "link": "https://git-scm.com/",
+    "description": "各プロジェクトのバージョン管理",
+    "tags": ["個人開発", "業務開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 5,
+    "icon": "./img/tech-icons/go.png",
+    "name": "Golang",
+    "link": "https://go.dev/",
+    "description": "バックエンド API サーバーの開発",
+    "tags": ["個人開発", "業務開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 5,
+    "icon": "./img/tech-icons/gcp.png",
+    "name": "Google Cloud",
+    "link": "https://cloud.google.com/",
+    "description": "各プロジェクトのインフラ構築・運用",
+    "tags": ["個人開発", "業務開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 5,
+    "icon": "./img/tech-icons/mysql.png",
+    "name": "MySQL",
+    "link": "https://www.mysql.com/",
+    "description": "バックエンド DB の開発・運用",
+    "tags": ["個人開発", "業務開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 5,
+    "icon": "./img/tech-icons/postgresql.png",
+    "name": "PostgreSQL",
+    "link": "https://www.postgresql.org/",
+    "description": "バックエンド DB の開発・運用",
+    "tags": ["個人開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 4,
+    "icon": "./img/tech-icons/auth0.png",
+    "name": "Auth0",
+    "link": "https://auth0.com/",
+    "description": "「ShareDiary」の認証機能開発",
+    "tags": ["個人開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 4,
+    "icon": "./img/tech-icons/codemagic.png",
+    "name": "Codemagic",
+    "link": "https://codemagic.io/start/",
+    "description": "スマホアプリ「ShareDiary」の CI/CD",
+    "tags": ["個人開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 4,
+    "icon": "./img/tech-icons/hasura.png",
+    "name": "Hasura GraphQL Engine",
+    "link": "https://hasura.io/",
+    "description": "「ShareDiary」のバックエンド開発",
+    "tags": ["個人開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 4,
+    "icon": "./img/tech-icons/html.png",
+    "name": "HTML",
+    "link": "https://en.wikipedia.org/wiki/HTML",
+    "description": "Web ページの開発",
+    "tags": ["個人開発", "業務開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 4,
+    "icon": "./img/tech-icons/nextjs.png",
+    "name": "Next.js",
+    "link": "https://nextjs.org/",
+    "description": "サービスの公式サイトの開発",
+    "tags": ["個人開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 4,
+    "icon": "./img/tech-icons/php.png",
+    "name": "PHP",
+    "link": "https://www.php.net/",
+    "description": "バックエンドサーバーの開発",
+    "tags": ["個人開発", "業務開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 4,
+    "icon": "./img/tech-icons/typescript.png",
+    "name": "TypeScript",
+    "link": "https://www.typescriptlang.org/",
+    "description": "Web Frontend の開発",
+    "tags": ["個人開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 4,
+    "icon": "./img/tech-icons/vuejs.png",
+    "name": "Vue.js",
+    "link": "https://vuejs.org/",
+    "description": "konnyaku256.dev の開発",
+    "tags": ["個人開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 3,
+    "icon": "./img/tech-icons/circleci.png",
+    "name": "CircleCI",
+    "link": "https://circleci.com/",
+    "description": "konnyaku256.dev の CI/CD",
+    "tags": ["個人開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 3,
+    "icon": "./img/tech-icons/css.png",
+    "name": "CSS",
+    "link": "https://en.wikipedia.org/wiki/CSS",
+    "description": "Web ページの開発",
+    "tags": ["個人開発", "業務開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 3,
+    "icon": "./img/tech-icons/nodejs.png",
+    "name": "Node.js",
+    "link": "https://nodejs.org/en/",
+    "description": "websocket サーバーの開発",
+    "tags": ["個人開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 3,
+    "icon": "./img/tech-icons/python.png",
+    "name": "Python",
+    "link": "https://www.python.org/",
+    "description": "Twitter Bot の開発, 機械学習の研究",
+    "tags": ["個人開発", "学生研究"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 3,
+    "icon": "./img/tech-icons/unity.png",
+    "name": "Unity",
+    "link": "https://unity.com/",
+    "description": "「shunkashuutou」などのゲーム開発",
+    "tags": ["個人開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 2,
+    "icon": "./img/tech-icons/kubernetes.png",
+    "name": "Kubernetes",
+    "link": "https://kubernetes.io/",
+    "description": "バックエンド開発・運用基盤の構築",
+    "tags": ["業務開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 2,
+    "icon": "./img/tech-icons/rails.png",
+    "name": "Rails",
+    "link": "https://rubyonrails.org/",
+    "description": "バックエンドサーバーの開発",
+    "tags": ["業務開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 2,
+    "icon": "./img/tech-icons/raspberry-pi.png",
+    "name": "Raspberry Pi",
+    "link": "https://www.raspberrypi.com/",
+    "description": "スマートホームシステムの開発",
+    "tags": ["個人開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 1,
+    "icon": "./img/tech-icons/arduino.png",
+    "name": "Arduino",
+    "link": "https://www.arduino.cc/",
+    "description": "スマートホームシステムの開発",
+    "tags": ["個人開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 1,
+    "icon": "./img/tech-icons/cpp.png",
+    "name": "C++",
+    "link": "https://en.wikipedia.org/wiki/C%2B%2B",
+    "description": "プログラミング言語の学習",
+    "tags": ["学生講義"],
+    "startDate": "January 2023"
   }
 ]

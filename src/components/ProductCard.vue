@@ -1,6 +1,6 @@
 <template>
   <div
-    class="product-card w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+    class="product-card m-4 w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
   >
     <a v-bind:href="product.link">
       <img v-bind:src="product.thumb" loading="lazy" class="rounded-t-lg w-full" />
@@ -54,6 +54,7 @@ interface Product {
   thumb: string;
   description: string;
   tags: string[];
+  date: string;
 }
 
 export default defineComponent({

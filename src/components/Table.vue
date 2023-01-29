@@ -17,21 +17,21 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
 
 export default defineComponent({
   props: {
     items: {
-      type: Array,
+      type: Array
     },
     title: {
-      type: String,
-    },
-  },
+      type: String
+    }
+  }
 });
 </script>
 
-<style lang='scss'>
+<style lang="scss">
 .table {
   margin: 20px;
   width: 500px;
