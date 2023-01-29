@@ -1,5 +1,13 @@
 [
   {
+    "name": "mimamori",
+    "link": "https://github.com/konnyaku256/mimamori",
+    "thumb": "./img/mimamori.png",
+    "description": "赤ちゃんのための見守りカメラシステム",
+    "tags": ["Raspberry Pi", "Web カメラ", "WebRTC Native Client Momo"],
+    "date": "January 2023"
+  },
+  {
     "name": "ShareDiary",
     "link": "https://sharediary.konnyaku256.dev/",
     "thumb": "./img/sharediary.png",
