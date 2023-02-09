@@ -1,5 +1,13 @@
 [
   {
+    "name": "piyolog-analytics",
+    "link": "https://github.com/konnyaku256/piyolog-analytics",
+    "thumb": "./img/piyolog-analytics.png",
+    "description": "ぴよログのデータ分析用ダッシュボード",
+    "tags": ["Grafana", "PlanetScale", "Python", "GitHub Actions"],
+    "date": "February 2023"
+  },
+  {
     "name": "mimamori",
     "link": "https://github.com/konnyaku256/mimamori",
     "thumb": "./img/mimamori.png",
