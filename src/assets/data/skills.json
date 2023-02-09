@@ -172,6 +172,15 @@
   },
   {
     "level": 3,
+    "icon": "./img/tech-icons/grafana.png",
+    "name": "Grafana",
+    "link": "https://grafana.com/",
+    "description": "piyolog-analytics のダッシュボード",
+    "tags": ["個人開発"],
+    "startDate": "January 2023"
+  },
+  {
+    "level": 3,
     "icon": "./img/tech-icons/nodejs.png",
     "name": "Node.js",
     "link": "https://nodejs.org/en/",
