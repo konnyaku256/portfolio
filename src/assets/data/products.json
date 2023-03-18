@@ -1,5 +1,13 @@
 [
   {
+    "name": "ばとめも",
+    "link": "https://github.com/konnyaku256/pokemon_battle_memo",
+    "thumb": "./img/pokemon_battle_memo.png",
+    "description": "ポケモン対戦用のメモ特化型アプリ",
+    "tags": ["Flutter", "GraphQL"],
+    "date": "March 2023"
+  },
+  {
     "name": "piyolog-analytics",
     "link": "https://github.com/konnyaku256/piyolog-analytics",
     "thumb": "./img/piyolog-analytics.png",
