@@ -11,21 +11,21 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, toRefs, reactive } from "vue";
-import Table from "../components/Table.vue";
-import Skills from "../components/Skills.vue";
+import { defineComponent, toRefs, reactive } from 'vue';
+import Table from '../components/Table.vue';
+import Skills from '../components/Skills.vue';
 
-import personal from "../assets/data/personal.json";
-import workExperience from "../assets/data/work-experience.json";
-import education from "../assets/data/education.json";
-import experience from "../assets/data/experience.json";
-import awards from "../assets/data/awards.json";
-import certificates from "./../assets/data/certificates.json";
+import personal from '../assets/data/personal.json';
+import workExperience from '../assets/data/work-experience.json';
+import education from '../assets/data/education.json';
+import experience from '../assets/data/experience.json';
+import awards from '../assets/data/awards.json';
+import certificates from '../assets/data/certificates.json';
 
 export default defineComponent({
   components: {
     Table,
-    Skills
+    Skills,
   },
   setup() {
     const state = reactive({
@@ -34,12 +34,12 @@ export default defineComponent({
       education,
       experience,
       awards,
-      certificates
+      certificates,
     });
     return {
-      ...toRefs(state)
+      ...toRefs(state),
     };
-  }
+  },
 });
 </script>
 

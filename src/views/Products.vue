@@ -15,22 +15,22 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, toRefs, reactive } from "vue";
-import ProductCard from "../components/ProductCard.vue";
-import products from "../assets/data/products.json";
+import { defineComponent, toRefs, reactive } from 'vue';
+import ProductCard from '../components/ProductCard.vue';
+import products from '../assets/data/products.json';
 
 export default defineComponent({
   components: {
-    ProductCard
+    ProductCard,
   },
   setup() {
     const state = reactive({
-      products
+      products,
     });
     return {
-      ...toRefs(state)
+      ...toRefs(state),
     };
-  }
+  },
 });
 </script>
 

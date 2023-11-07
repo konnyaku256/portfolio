@@ -20,12 +20,12 @@
 
 // vue-writerがTypeScript対応してないのでJSで実装
 <script>
-import VueWriter from "vue-writer";
+import VueWriter from 'vue-writer';
 
 export default {
   components: {
-    VueWriter
-  }
+    VueWriter,
+  },
 };
 </script>
 

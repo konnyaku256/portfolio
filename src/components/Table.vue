@@ -17,17 +17,17 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue";
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   props: {
     items: {
-      type: Array
+      type: Array,
     },
     title: {
-      type: String
-    }
-  }
+      type: String,
+    },
+  },
 });
 </script>
 

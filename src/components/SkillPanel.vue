@@ -26,7 +26,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from "vue";
+import { defineComponent, PropType } from 'vue';
 
 interface Skill {
   level: string;
@@ -41,8 +41,8 @@ interface Skill {
 export default defineComponent({
   props: {
     skill: {
-      type: Object as PropType<Skill>
-    }
-  }
+      type: Object as PropType<Skill>,
+    },
+  },
 });
 </script>

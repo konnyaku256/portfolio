@@ -46,7 +46,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from "vue";
+import { defineComponent, PropType } from 'vue';
 
 interface Product {
   name: string;
@@ -60,9 +60,9 @@ interface Product {
 export default defineComponent({
   props: {
     product: {
-      type: Object as PropType<Product>
-    }
-  }
+      type: Object as PropType<Product>,
+    },
+  },
 });
 </script>
 
