@@ -1,5 +1,13 @@
 [
   {
+    "name": "Flutter+Auth0+Hasuraによるモバイルアプリケーション個人開発",
+    "link": "https://techbookfest.org/product/cdy0UrzujcbwHbkPchDkmU",
+    "thumb": "./img/tech_book_fes_16.png",
+    "description": "サークル「こんにゃくばたけ」として技術同人誌を初執筆",
+    "tags": ["書籍", "技術書典16"],
+    "date": "May 2024"
+  },
+  {
     "name": "ばとめも",
     "link": "https://github.com/konnyaku256/pokemon_battle_memo",
     "thumb": "./img/pokemon_battle_memo.png",
