@@ -1,2 +1,10 @@
 [
+  {
+    "name": "Professional Cloud Architect",
+    "link": "https://www.credly.com/badges/45c9f628-e25e-47fb-8b5f-8f6ae3d8231b/public_url",
+    "thumb": "./img/gc_pca.png",
+    "description": "Professional Cloud Architects enable organizations to leverage Google Cloud technologies. With a thorough understanding of cloud architecture and Google Cloud, they design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions to drive business objectives.",
+    "tags": ["Google Cloud"],
+    "date": "July 6, 2024 - July 6, 2026"
+  }
 ]

@@ -9,6 +9,9 @@
     <router-link to="/products">
       <h2 class="text-xl lg:text-2xl font-medium">Products</h2>
     </router-link>
+    <router-link to="/certificates">
+      <h2 class="text-xl lg:text-2xl font-medium">Certificates</h2>
+    </router-link>
   </div>
 </template>
 

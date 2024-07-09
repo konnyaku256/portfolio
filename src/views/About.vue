@@ -5,27 +5,25 @@
     <Table title="Education" v-bind:items="education"></Table>
     <Table title="Experience" v-bind:items="experience"></Table>
     <Table title="Awards" v-bind:items="awards"></Table>
-    <!-- <Table title="Certificates" v-bind:items="certificates"></Table> -->
     <Skills />
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent, toRefs, reactive } from 'vue';
-import Table from '../components/Table.vue';
-import Skills from '../components/Skills.vue';
+import { defineComponent, toRefs, reactive } from "vue";
+import Table from "../components/Table.vue";
+import Skills from "../components/Skills.vue";
 
-import personal from '../assets/data/personal.json';
-import workExperience from '../assets/data/work-experience.json';
-import education from '../assets/data/education.json';
-import experience from '../assets/data/experience.json';
-import awards from '../assets/data/awards.json';
-import certificates from '../assets/data/certificates.json';
+import personal from "../assets/data/personal.json";
+import workExperience from "../assets/data/work-experience.json";
+import education from "../assets/data/education.json";
+import experience from "../assets/data/experience.json";
+import awards from "../assets/data/awards.json";
 
 export default defineComponent({
   components: {
     Table,
-    Skills,
+    Skills
   },
   setup() {
     const state = reactive({
@@ -33,13 +31,12 @@ export default defineComponent({
       workExperience,
       education,
       experience,
-      awards,
-      certificates,
+      awards
     });
     return {
-      ...toRefs(state),
+      ...toRefs(state)
     };
-  },
+  }
 });
 </script>
 
