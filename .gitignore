@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
 /dist
+/private
 
 /tests
 /tests/e2e/videos/
