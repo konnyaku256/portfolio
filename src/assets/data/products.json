@@ -1,5 +1,13 @@
 [
   {
+    "name": "絶対音感おけいこアプリ",
+    "link": "https://perfect-pitch-training.vercel.app/",
+    "thumb": "./img/perfect-pitch-training.png",
+    "description": "ピアノ習い事の絶対音感おけいこを補助するためのアプリ",
+    "tags": ["ピアノ", "絶対音感", "Next.js", "TypeScript", "remoteStorage"],
+    "date": "April 2026"
+  },
+  {
     "name": "QRコードであそべるおみせやさん",
     "link": "https://techbookfest.org/product/nrrvP1FHYwdXMQFbEvSBJG",
     "thumb": "./img/tech_book_fes_20.png",
