@@ -1,6 +1,14 @@
 [
   {
-    "name": "絶対音感おけいこアプリ",
+    "name": "わたしのデイリーミッション",
+    "link": "https://my-daily-mission.vercel.app/",
+    "thumb": "./img/my-daily-mission.png",
+    "description": "子どものタスク管理のためのスタンプカードアプリ",
+    "tags": ["タスク管理", "Next.js", "TypeScript", "remoteStorage"],
+    "date": "May 2026"
+  },
+  {
+    "name": "絶対音感トレーニングアプリ",
     "link": "https://perfect-pitch-training.vercel.app/",
     "thumb": "./img/perfect-pitch-training.png",
     "description": "ピアノ習い事の絶対音感おけいこを補助するためのアプリ",
