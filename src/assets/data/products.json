@@ -1,5 +1,13 @@
 [
   {
+    "name": "ワールドトリガー非公式ファンメイドゲーム B 級ランク戦シミュレーター",
+    "link": "https://b-sim.vercel.app/",
+    "thumb": "./img/b-sim.png",
+    "description": "略して「ビーシミュ」。3〜4部隊が市街地などの仮想マップで戦う、B級ランク戦風のタクティカルアクションゲームです。",
+    "tags": ["ゲーム", "TypeScript", "WebRTC", "Vercel"],
+    "date": "October 2026"
+  },
+  {
     "name": "わたしのデイリーミッション",
     "link": "https://my-daily-mission.vercel.app/",
     "thumb": "./img/my-daily-mission.png",
